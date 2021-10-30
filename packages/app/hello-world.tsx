@@ -1,12 +1,13 @@
-import { View, Text, StyleSheet } from 'react-native'
+import { StyleSheet } from 'react-native';
+import { View as MotiView, Text as MotiText } from 'moti';
 
 export function HelloWorld() {
   return (
-    <View style={styles.container}>
-      <Text>Hello, World!</Text>
-    </View>
-  )
-}
+    <MotiView style={styles.container}>
+      <MotiText>Hello, World!</MotiText>
+    </MotiView>
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
