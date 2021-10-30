@@ -1,6 +1,6 @@
 {
   "main": "index.js",
-  "name": "@expo-next-monorepo-example/expo",
+  "name": "@moti-next12-monorepro/expo",
   "scripts": {
     "dev": "yarn start:dev-client",
     "start": "react-native start",
